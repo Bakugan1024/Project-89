@@ -1,13 +1,13 @@
 body
 {
-	background: url("https://cdn.wallpapersafari.com/95/66/gEIXlN.jpg");
+	background: url("https://f4.bcbits.com/img/a0451786388_10.jpg");
 background-position: center;
 background-size: contain;
-color: lawngreen;
+color: cyan;
 }
 
 button{
-	background-color: lawngreen;
+	background-color: cyan;
 	color: brown;
 	width: 200px;
 	font-size: large;
@@ -47,7 +47,7 @@ text-align: left;
 input{
 	width: 500px;
 	height: 35px;
-	border-color: lawngreen;
+	border-color: cyan;
 }
 
 #sword{

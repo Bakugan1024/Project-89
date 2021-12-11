@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Guess The Word</title>
+	<title>The Math Quiz Game!</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -11,25 +11,28 @@
 <link rel="stylesheet" type="text/css" href="game.css">
 
 <script src="game_login.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-<center><h1 id="sword">Game</h1>
-	<h2>Player 1 Login for the game</h2>
-	<label>Username</label>
-	<br>
-	<input id="player1_name_input" type="text">
+
+<center>
+	<h1>Game</h1>
+
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h3 >Player 1 Login for the game</h3>
+		<label >User Name:</label>
+		 <input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
+		 <br>
+	</div>
 <br>
-<br>
-<br>	
-	<h2>Player 2 Login for the game</h2>
-	<label>Username</label>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h3 >Player 2 Login for the game</h3>
+		  <label >User Name:</label>
+		 <input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
+		<br>
+	</div>
 	<br>
-	<input id="player2_name_input" type="text">
-	<br>
-	<br>
-	<button onclick="addUser()">Log in</button></center>
+		<button style="width:30%" class="btn btn-primary" onclick="addUser()">Log in</button>
+</center>
+
 </body>
 </html>
